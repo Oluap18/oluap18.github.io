@@ -29,10 +29,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-img {
-    border-radius: 50%;
-}
-
 body {
 	line-height: 1;
 }
@@ -167,7 +163,6 @@ input, select, textarea {
 		color: #35b88f;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
 	}
 
 		a:hover {
@@ -1493,7 +1488,9 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 100%;
+			width: 16vw;
+			height: 20vh;
+			max-width: 200px;
 		}
 
 		.image.featured {
